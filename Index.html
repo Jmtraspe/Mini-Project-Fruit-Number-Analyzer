@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Fruit & Number Analyzer</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+    }
+    input, button {
+      margin: 5px 0;
+      padding: 5px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Fruit & Number Analyzer</h1>
+
+  <div>
+    <label>Name: <input type="text" id="nameInput"></label><br>
+    <label>Number: <input type="number" id="numberInput"></label><br>
+    <label>Short Sentence: <input type="text" id="sentenceInput"></label><br><br>
+
+    <label>Favorite Fruits:</label><br>
+    <input type="text" id="fruit1" placeholder="Fruit 1"><br>
+    <input type="text" id="fruit2" placeholder="Fruit 2"><br>
+    <input type="text" id="fruit3" placeholder="Fruit 3"><br><br>
+
+    <button onclick="analyze()">Run Analysis</button>
+  </div>
+
+  <hr>
+
+  <div id="output"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
